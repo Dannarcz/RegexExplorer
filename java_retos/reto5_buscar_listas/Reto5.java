@@ -9,7 +9,7 @@ import java.util.regex.*;
 
 public class Reto5 {
     public static void main(String[] args) {
-        String texto = "Las listas son [1, 2, 3] y [4, 5, 6].";
+        String texto = "Las listas son [1, 2, 3] y [4, 5, 6]. lo numeros son [8, 22, 23] , [14, 82, 3], [1, 25, 33]";
         // Expresión regular para listas de números
         String patron = "\\[\\s*\\d+(?:\\s*,\\s*\\d+)*\\s*\\]";
         Pattern pattern = Pattern.compile(patron);
